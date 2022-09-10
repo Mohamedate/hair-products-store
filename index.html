@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/pngegg.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/my-style.css">
+    <title>Shopping Store</title>
+</head>
+<body>
+    <!--------------------- navbar --------------------->
+    <section class="header" id="home">
+        <div class="container">
+            <div class="navbar">
+                <div class="container">
+                    <a href="#home">
+                        <div class="logo">
+                            <i class="fa-solid fa-truck-fast"></i>
+                           
+                            <p>kshop</p>
+                        </div>
+                    </a>
+
+                    
+                    <nav>
+                        <ul id="menuItems">
+                            <li><a href="#home" class="active">الرئيسية</a></li>
+                            <li><a href="#best-seller">الاكثر مبيعا</a></li>
+                            <li><a href="#all-products">جميع المنتجات</a></li>
+                            <li><a href="#offer">العروض</a></li>
+                            <li><a href="#contact">للتواصل</a></li>
+                        </ul>
+                    </nav>
+                    <div class="menu-icon" onclick="toggle()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>امنح شعرك شكلا مميزا <br>ومظهرا رائعا</h1>
+                    <p>تدور الكثير من التساؤلات حول تقنية فرد الشعر بالبروتين التي يعتبرها البعض الحل السحري والأفضل لعلاج مشاكل الشعر والحصول على شعر ذو مظهر صحي ولامع ومفرود,هنا في <span>K-shop</span> سنوفر لك أفضل منتجات الشعر الموجوده في السوق العالمي وباقل الأسعار</p>
+                    <a href="products-detail.html#all" class="btn">
+                        تصفح المنتجات
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                    </a>
+
+                </div>
+                <div class="col-2">
+                    <img src="images/hari-home.png" alt=""> 
+                </div>
+            </div>
+        </div>
+    </section>
+        <!--------------------- best-seller --------------------->
+        <section class="best-seller" id="best-seller">
+            <div class="sm-container">
+                <h2 class="title">الأكثر مبيعا</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <a href="products-detail.html">
+                             <div class="overlay">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <img src="images/toppik.jfif" alt="">
+                        <h4>Toppik hair fiber</h4>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <!-- <i class="fa-solid fa-star-half"></i> -->
+                        </div>
+                        <p>$50.00</p></a>
+                       
+                    </div>
+                    <div class="col-3">
+                        <a href="products-detail.html">
+                            <div class="overlay">
+                                <i class="fa-solid fa-eye"></i>
+    
+                            </div>
+    
+                            <img src="images/Fiber Spray Applicator.png" alt="">
+                            <h4>نفاخ فايبر</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <!-- <i class="fa-solid fa-star-half"></i> -->
+                            </div>
+                            <p>RY 3500</p> </a>
+                        
+                    </div>
+                    <div class="col-3">
+                        <a href="products-detail.html">
+                            <div class="overlay">
+                                <i class="fa-solid fa-eye"></i>
+    
+                            </div>
+    
+                            <img src="images/toppikgroup.jfif" alt="">
+                            <h4>عرض لمجموعة toppik كاملة</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <!-- <i class="fa-solid fa-star-half"></i> -->
+                            </div>
+                            <p>RY 10500</p>
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+ <!--------------------- all-products products --------------------->
+ <div class="all-products" id="all-products">
+    <div class="sm-container">
+        <h2 class="title">جميع المنتجات</h2>
+        <div class="row">
+            <div class="col-3">
+                <a href="products-detail.html">
+                    <div class="overlay">
+                        <i class="fa-solid fa-eye"></i>
+                </div>
+                <img src="images/toppik.jfif" alt="">
+                <h4>مثبت toppik</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>RY 3500</p>
+                </a>
+               
+            </div>
+            <div class="col-3">
+                <a href="products-detail.html">
+                    <div class="overlay">
+                        <i class="fa-solid fa-eye"></i>
+                </div>
+                <img src="images/bimlosm.jpg" alt="">
+                <h4>نفاخ فايبر</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <!-- <i class="fa-solid fa-star-half"></i> -->
+                </div>
+                <p>RY 3500</p>
+                </a>
+              
+            </div>
+            <div class="col-3">
+                <a href="products-detail.html">
+                    <div class="overlay">
+                        <i class="fa-solid fa-eye"></i>
+                </div>
+                <img src="images/hariWhite.jpg" alt="">
+                <h4>صبغة ثلجي بعد الميش</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <!-- <i class="fa-solid fa-star-half"></i> -->
+                </div>
+                <p>RY 9000</p>
+                </a>
+
+             
+            </div>
+            <div class="col-3">
+                <a href="products-detail.html">
+                    <div class="overlay">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <img src="images/hari-remove.jpg" alt="">
+                    <h4>كريم ازالة الشعر للرجال والنساء</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <!-- <i class="fa-solid fa-star-half"></i> -->
+                    </div>
+                    <p>RY 1000</p>
+                </a>
+      
+            </div>
+            <div class="col-3">
+                <a href="products-detail.html">
+                    <div class="overlay">
+                        <i class="fa-solid fa-eye"></i>
+                </div>
+                <img src="images/wax.jpg" alt="">
+                <h4>واكس تثبيت الشعر سعة 130</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <!-- <i class="fa-solid fa-star-half"></i> -->
+                </div>
+                <p>ٌRY 1500</p>
+                </a>
+               
+            </div>
+            <div class="col-3">
+                <a href="products-detail.html">
+                    <div class="overlay">
+                        <i class="fa-solid fa-eye"></i>
+
+                </div>
+
+                <img src="images/Fiber Spray Applicator.png" alt="">
+                <h4>نفاخ فايبر</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <!-- <i class="fa-solid fa-star-half"></i> -->
+                </div>
+                <p>RY 3500</p>
+                </a>
+               
+            </div>
+        </div>
+     </div>
+ </div>
+  <!--------------------- offer --------------------->
+<div class="offer" id="offer">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/toppikgroup.jfif" alt="">
+            </div>
+            <div class="col-2">
+                <p>توبك هير فايير + مثبت فايبر + نافخ فايبر</p>
+                <h1>عرض لمجموعة toppik كاملة</h1>
+              <p>
+                قبل التخفيض 12500 ريال قديم
+                <br>  بعد التخفيض 1050 ريال قديم
+                <br> اولا المنتج مش علاج وانما مادة تتكون من الكيراتين والبورتين بحسب لون الشعر,لما تنرش فوق الشعر تلتسق به ويظهر الشعر اكثر كثافة مقاوم للريح ورذاذ الماء.
+                (( يعني شبية بالصبغة بس شكل بودرة فايبر يمسك في الشعر بشكل اقوى وغير مضر ))
+                ويزال بالشامبو. 
+             والعلبة تكفيك شهر تقريبا.   <br> 
+                الكمية محدودة جدا. 
+              </p>
+                <a href="https://wa.me/+967778907379" target="_blank" class="btn">
+                    الشراء الان
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+  <!--------------------- testimonial --------------------->
+  <div class="testimonial">
+    <div class="sm-container">
+        <h2 class="title">اراء العملاء</h2>
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>عانيت كثيرا من الشعر المجعد ولم اكن استطيع ان اذهب الى المناسبات او الافراح بسبب شعري لم اكن استطيع ان اسرح شعري نهائيا بحثت كثيرا عن حلول في الانترنت ولاكن دون جدوى الى ان وجدت موقع <span>kshop</span>  وما فيه من منتجات رائعه جدا للشعر والاحسن من كل هذا ان المنتجات طبيعية 100% شكرا <span>kshop</span> </p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <!-- <i class="fa-solid fa-star-half"></i> -->
+                </div>
+                <img src="images/mohamedatef.jpg" alt="">
+                <h3>محمد عاطف</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>كنت اعاني من الصلع وتساقط الشعر مدة لاتزيد عن 10 اعوام ولم اكن اعرف ماذا اعمل بحثت كثيرا في الاسواق عن علاج لهذه المشكله ولاكن للاسف دون جدوى بالصدفة اخبرني احد الاصدقاء عن موقع <span>kshop</span>  لمنتجات الشعر من اول اسبوع بعد استخدام المنتجات لم اصدق ان شعري بدا يطلع من جديد لقد اعاد لي الثقه الى نفسي انصح اي احد بالشراء من هذا الموقع الرائع...</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <!-- <i class="fa-solid fa-star-half"></i> -->
+                </div>
+                <img src="images/rabie.jpg" alt="">
+                <h3>عبدالله ربيع</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>عانيت كثيرا من الشعر المجعد ولم اكن استطيع ان اذهب الى المناسبات او الافراح بسبب شعري لم اكن استطيع ان اسرح شعري نهائيا بحثت كثيرا عن حلول في الانترنت ولاكن دون جدوى الى ان وجدت موقع <span>kshop</span>  وما فيه من منتجات رائعه جدا للشعر والاحسن من كل هذا ان المنتجات طبيعية 100% شكرا <span>kshop</span> </p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <!-- <i class="fa-solid fa-star-half"></i> -->
+                </div>
+                <img src="images/alkamel.jpg" alt="">
+                <h3>محمد الكامل</h3>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--------------------- contact --------------------->
+
+<div class="contact" id="contact">
+    <div class="container">
+        <h2 class="title">تواصل معنا</h2>
+        <div class="row">
+            <div class="col-2">
+                <h1>تواصل معنا ستجدنا</h1>
+                <p>اذا كنت ترغب في منتج من منتجاتنا ماعليك سوى التواصل معنا وسوف نعطيك ماتريد في غظون ساعات من طلبك وفي اي مكان تردي</p>
+                <div class="contact-info">
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="https://wa.me/+967778907379" target="_blank">dangerous0111592@gmail.com</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <a href="https://wa.me/+967778907379" target="_blank">+967778907379</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="https://wa.me/+967778907379" target="_blank">صنعاء - اليمن</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="input-info">
+                    <h2>من فضلك املا البيانات</h2>
+                    <input type="text" placeholder="اسمك">
+                    <input type="text" placeholder="الايميل">
+                    <textarea placeholder="ملاحظات"></textarea>
+                    <a href="https://wa.me/+967778907379" target="_blank" class="btn">ارسال</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h1>امنح شعرك شكلا مميزا <br>ومظهرا رائعا</h1>
+               
+            </div>
+            <div class="footer-col-2">
+                <a href="#home">
+                    <div class="logo">
+                        <i class="fa-solid fa-truck-fast"></i>
+                       
+                        <p>kshop</p>
+                    </div>
+                </a>
+                <p>تدور الكثير من التساؤلات حول تقنية فرد الشعر بالبروتين التي يعتبرها البعض الحل السحري والأفضل لعلاج مشاكل الشعر والحصول على شعر ذو مظهر صحي ولامع ومفرود,هنا في <span>K-shop</span> سنوفر لك أفضل منتجات الشعر الموجوده في السوق العالمي وباقل الأسعار</p>
+            </div>
+            <div class="footer-col-3">
+               <h3>Our Links</h3>
+               <ul>
+                <li><a href="#home">الرئيسية</a> </li>
+                <li><a href="#best-seller">الاكثر مبيعا</a> </li>
+                <li><a href="#all-products">المنتجات</a> </li>
+                <li><a href="#offer">العروض</a> </li>
+               </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>follow us</h3>
+                <ul>
+                 <li> <a href="https://wa.me/+967778907379" target="_blank">facebook</a> </li>
+                 <li> <a href="https://wa.me/+967778907379" target="_blank">Twitter</a> </li>
+                 <li> <a href="https://wa.me/+967778907379" target="_blank">instagram</a> </li>
+                 <li> <a href="https://wa.me/+967778907379" target="_blank">Youtube</a> </li>
+                </ul>
+             </div>
+          
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 <a href="https://mohamedate.github.io/My_pr" target="_blank">Mohamed Atef</a>  Frontend Developer</p>
+    </div>
+  </footer>
+  <!------------------ up btn ------------------->
+<div class="up-btn">
+    <p></p>
+</div>
+   <script src="js/all.min.js"></script>
+   <script src="js/Myjs.js"></script>
+</body>
+</html>
