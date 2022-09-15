@@ -336,7 +336,7 @@ font-size: 20px;
 @media (max-width:600px ) {
 .col-2,.col-3,.col-4 { 
     flex-basis: 100%;
-    max-width: 280px;
+    max-width: 300px;
 }
 
 }
