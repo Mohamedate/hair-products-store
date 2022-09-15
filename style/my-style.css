@@ -336,6 +336,7 @@ font-size: 20px;
 @media (max-width:600px ) {
 .col-2,.col-3,.col-4 { 
     flex-basis: 100%;
+    max-width: 280px;
 }
 
 }
@@ -723,7 +724,7 @@ up-btn
 .up-btn { 
     background-color: var(--main-color);
     position: fixed;
-    bottom: 3rem;
+    bottom: 1rem;
     right: -5rem;
     width: 3rem;
     height: 3rem;
@@ -735,7 +736,7 @@ up-btn
 }
 
 .up-btn.active { 
-    right: 2rem;
+    right: 1rem;
 }
 .up-btn p { 
     width: 1rem;
